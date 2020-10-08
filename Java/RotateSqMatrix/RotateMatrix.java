@@ -28,7 +28,7 @@ class GFG {
   
                 // Move values from left to bottom 
                 mat[N - 1 - x][N - 1 - y] = mat[N - 1 - y][x]; 
-  
+   
                 // Assign temp to left 
                 mat[N - 1 - y][x] = temp; 
             } 
